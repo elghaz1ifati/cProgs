@@ -8,8 +8,8 @@ int main (){
 
     int i=1;
     while (i<=4){
-        sum += *ptr;
-        ptr++;
+        sum += *ptr; //Add the current element to sum
+        ptr++; //Move to the next element
         i ++;
     }
     printf("%d",sum);
